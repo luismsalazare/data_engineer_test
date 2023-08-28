@@ -41,7 +41,8 @@ A continuación el desglose de las tablas:
 
 2. Crea una base de datos en Postgres usando Docker.
 
-docker run --name awto_container -e POSTGRES_PASSWORD=de_test -d de_applicant
+Refiérase al archivo `Dockerfile`. En esta parte, me apoyé en ChatGPT, debido a que no suelo trabajar con containers.
+
 
 
 3. Crea las tablas del modelo de datos que diseñaste en el paso 1. Puede usar scripts SQL o código en Python
