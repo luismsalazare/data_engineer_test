@@ -14,7 +14,7 @@ class PostgresConnection():
             database="awto"
         )
 
-    def __exit__(self):
+    def __exit__(self, exc_type, exc_value, exc_tb):
         self.conn.close()
 
     def execute_query(self, query):
