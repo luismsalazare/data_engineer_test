@@ -127,3 +127,5 @@ Los cupones ofrecidos por Awto, deben pertenecer a una campaña de adquisición,
 Cada cupón tiene relación estricta con una campaña, que determina el tipo de descuento a aplicar (porcentual o fijo), monto del descuento, fecha validez de uso de cupón para campañas con temporalidad definida, por lo que esta tabla debe ser consultada cuando se intente hacer uso de un cupón para conocer el estatus del cupón (campaing_status).
 
 A su vez, se crea una tabla de hechos llamada coupons, que tiene información de los cupones utilizados por usuarios y que debe ser consultada por la app o la página web, al momento de ser aplicado un cupón a un viaje, para así evitar la reutilización de cupones por parte de los usuarios.
+
+`NOTA`: hice uso constante de ChatGPT y Bard, para hacer brainstorming de posibles soluciones a los problemas planteados. Obtuve ideas sobre posibles modelos de datos y esquemas relacionales, que permitieron nutrir mis ideas y considerar otras aristas del problema. 
