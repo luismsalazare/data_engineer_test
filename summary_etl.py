@@ -67,5 +67,5 @@ def daily_summary(fecha) -> None:
 if __name__ == "__main__":
     create_daily_summary_table()
 
-    fecha = "2023-08-25"
+    fecha = datetime.now().strftime('%Y-%m-%d')
     daily_summary(fecha)
