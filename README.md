@@ -59,7 +59,7 @@ Se hace uso de un for loop para iterar entre las tablas y el uso de la función 
 
 5. Cree una nueva tabla en Postgres llamada resumen_diario. Genera con Python un proceso de ETL que cargue en la tabla un resumen por día de:la cantidad de viajes -  suma de ingresos - el promedio de ingresos - la suma de metros recorridos. 
 
-Refiérase a `common.py` y s`ummary_etl.py` scripts.
+Refiérase a `common.py` y `summary_etl.py` scripts.
 
 
 5.1. Explique y justifique las decisiones que tomó para generar el resumen. Considere que diariamente no habrá más de 100.000 viajes.
