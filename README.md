@@ -128,4 +128,8 @@ Cada cupón tiene relación estricta con una campaña, que determina el tipo de 
 
 A su vez, se crea una tabla de hechos llamada coupons, que tiene información de los cupones utilizados por usuarios y que debe ser consultada por la app o la página web, al momento de ser aplicado un cupón a un viaje, para así evitar la reutilización de cupones por parte de los usuarios.
 
-`NOTA`: hice uso constante de ChatGPT y Bard, para hacer brainstorming de posibles soluciones a los problemas planteados. Obtuve ideas sobre posibles modelos de datos y esquemas relacionales, que permitieron nutrir mis ideas y considerar otras aristas del problema. En cuanto a los códigos, no me apoyé mucho en las AI ya que tengo experiencia en los problemas planteados, y hago uso constante del context manager para evitar queries idle y el schema_fixer. Con respecto a la última pregunta, mi respuesta se basa en experiencias previas en Shipit en términos de campañas, que extrapolé hacia los cupones.
+`NOTA`: hice uso constante de ChatGPT y Bard, para hacer brainstorming de posibles soluciones a los problemas planteados. 
+- Obtuve ideas sobre posibles modelos de datos y esquemas relacionales, que permitieron nutrir mis ideas y considerar otras aristas del problema.
+- Donde me apoyé mas de las AI fue en la creación del Dockerfile. En mi día a día, no hago uso constante de containers ya que trabajo en su mayoría con procesos batch.
+- En cuanto a los códigos, no me apoyé mucho en las AI ya que tengo experiencia en los problemas planteados, y hago uso constante del context manager para evitar queries idle y el schema_fixer.
+- Con respecto a la última pregunta, mi respuesta se basa en experiencias previas en Shipit en términos de campañas, que extrapolé hacia los cupones.
