@@ -1,4 +1,5 @@
 import pandas as pd
+import datetime
 from common import PostgresConnection, schema_fixer
 
 def create_daily_summary_table() -> None:
