@@ -49,6 +49,7 @@ docker run --name awto_container -e POSTGRES_PASSWORD=de_test -d de_applicant
 Refiérase a `common.py` y `create_tables.py` scripts -> 5 functions para la creación de 6 tablas
 
 
+
 4. Genera archivos en Python para cargar los datos del archivo trips.csv en las tablas que creaste en el paso anterior.
 
 Refiérase a `common.py` y `load_data.py` scripts -> Código genérico para poblar las 5 tablas del modelo
